@@ -158,5 +158,5 @@ const pinRow=(row)=>{
 const pinRow=document.getElementById("pinned-row");
 pinRow(pinRow);
 pinRow.addEventListener("click",()=>{
-    window.scrollTo(0,0);
+    window.scrollTo(0,1);
 });
