@@ -147,3 +147,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Error fetching data:', error);
     }
 });
+
+const pinRow=(row)=>{
+    row.style.position='sticky';
+    row.style.top='0';
+    row.style.backgroundColor='white';
+    row.style.zIndex="1";
+};
+
+const pinRow=document.getElementById("pinned-row");
+pinRow(pinRow);
+pinRow.addEventListener("click",()=>{
+    window.scrollTo(0,0);
+});
